@@ -1,7 +1,11 @@
 # CreacionDataSource
 El objetivo de este repositorio es crear una guía de instalación de un Datasource con el server wildfly 19.0.1 para futuros usos.
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
 1) Haber descargado el server wildfly 19.0.1 ( se usa esta versión ya que anteriormente usamos una versión superior y arrojó error en splap)
+   
 2) consejo: crear en Disco C:/ una carpeta (servers) y allí alojar el instalador
 
 3) Crear un usuario:
@@ -47,7 +51,7 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
    3.10) al presionar continuar se cierra la consola.
 
 
-
+  -----------------------------------------------------------------------------
 
 
    
