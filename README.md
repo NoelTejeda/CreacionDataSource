@@ -85,7 +85,8 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
 
 
-   6) en localhost 9990
+   6) agregar los drivers de postgresql en C:\wildfly-19.1.0.Final\modules\system\layers\base\com
+       
             
 
       
