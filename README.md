@@ -157,5 +157,13 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
     7.2) Agregar Datasource:
 
+    paso 1:
+    
+    ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/AddDataSource1.png)
+
+    paso 2:
+
+    ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/AddDataSource2.png)
+
     
       
