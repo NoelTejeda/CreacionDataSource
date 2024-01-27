@@ -85,7 +85,7 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
 
 
-   6) agregar los drivers de postgresql en C:\wildfly-19.1.0.Final\modules\system\layers\base\com
+   5) agregar los drivers de postgresql en C:\wildfly-19.1.0.Final\modules\system\layers\base\com
 
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/GuardarDriversPostgres.png)
 
@@ -98,4 +98,19 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
       En el module.xml debe quedar así:
 
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/module.xml.png)
-   
+
+
+
+  6)  configurar el datasource en el archivo de configuración de WildFly (como standalone.xml o 
+       domain.xml ó standalone-full.xml)
+
+
+      6.1) para saber que archivo se debe configurar revisamos en Netbeans servers/click-derecho/ Properties:
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/Standalone-full.png)
+
+
+      
+      
+
+      
