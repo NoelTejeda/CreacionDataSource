@@ -90,6 +90,7 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/GuardarDriversPostgres.png)
 
       Quedando así:
+      C:\Servers\wildfly-19.1.0.Final\modules\system\layers\base\com\postgresql\main
 
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/QuedandoAs%C3%AD.png)
        
@@ -101,7 +102,7 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
 
 
-  6)  configurar el datasource en el archivo de configuración de WildFly (como standalone.xml o 
+  7)  configurar el datasource en el archivo de configuración de WildFly (como standalone.xml o 
        domain.xml ó standalone-full.xml)
 
 
@@ -151,4 +152,9 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
    
     ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/localhost9990.png)
+
+
+    7.2) Agregar Datasource:
+
+    
       
