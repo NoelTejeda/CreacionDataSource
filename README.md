@@ -46,15 +46,24 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
    3.10) al presionar continuar se cierra la consola.
 
-   
+
+
+
+
    
    4) En Netbeans:
+  
+      
       4.1) ir a services / servers / click derecho-mouse / add server
-      imagen paso4.1
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso%204.1.png)   
+
 
       4.2) seleccionar la opción "WildFly Application Server" y "Name" es aconsejable cambiar por "WildFly 19.0.1" para tener
            identificada la versión.
-      imagen paso4.2
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso4.2.png)
+
 
       4.3) seleccionar la ubicación y en server configuration automaticamente seleccionará el standalone-full.xml que se usará.
       imagen paso4.3
