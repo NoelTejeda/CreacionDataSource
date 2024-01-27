@@ -8,6 +8,7 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
    3.1) ir a la carpeta bin
    3.2) ejecutar add-user.bat  (windows)  /  add-user.sh (unix)
    3.3) presionar tecla a (management User)
+   ![Alt text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/paso1.png)
    imagen paso1
 
    3.4) agregar el usuario
