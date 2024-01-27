@@ -138,6 +138,11 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
 
 
+      En el application.properties la ruta debe ser la misma que colocamos en el standalone-full.xml
+      
+      spring.datasource.jndi-name=java:jboss/datasources/testconexion
+
+
       
 
       
