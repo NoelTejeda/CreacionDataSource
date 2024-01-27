@@ -95,5 +95,7 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
        
             
 
-      
+      En el module.xml debe quedar así:
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/module.xml.png)
    
