@@ -110,7 +110,34 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/Standalone-full.png)
 
 
-      
+      6.2) en el archivo standalome-full.xml agregar las siguientes líneas:
+
+           <!-- Inicio postgresql CONFIGURACION  datasources--> 
+
+ 
+                <datasource jndi-name="java:jboss/datasources/IX" pool-name="IX">   
+                    <connection-url>jdbc:postgresql://localhost:5432/y5svr1t2r5xudqeq</connection-url>   
+                    <driver>postgresql</driver>   
+                    <security>   
+                        <user-name>postgres</user-name>   
+                        <password>postgres</password>   
+                    </security>   
+                </datasource>
+
+         <!--  Fin postgresql CONFIGURACION  datasources-->
+
+
+   ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/ConfiguracionAgregadaalStandalone.png)
+
+
+
+      jndi-name = RUTA que colocamos en el application.properties (backend)
+      pool-name = es el NOMBRE que le colocaremos al datasource
+      User-name = Usuario de postgres
+      password  = contraseña de postgres
+
+
+
       
 
       
