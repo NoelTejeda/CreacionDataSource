@@ -26,17 +26,23 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
    ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso3.png)
 
    3.6) si no se desea agregar el usuario a un grupo dejar en blanco esta opción y enter
-   imagen paso4
 
-   3.7) Enter 'yes' (ManagementRealm es el que se utiliza por defecto en la configuración, es importante dejar el nombre del ámbito como ManagementRealm, ya que este nombre debe coincidir con el nombre utilizado en la configuración del servidor)
-   imagen paso5
+   ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso4.png)
+   
+   3.7) Enter 'yes' (ManagementRealm es el que se utiliza por defecto en la configuración, es importante dejar el nombre del ámbito como ManagementRealm, ya que este nombre debe coincidir con el nombre 
+        utilizado en la configuración del servidor)
+
+   ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso5.png)
 
    3.8) enter 'yes'
-   imagen paso6
 
-   3.9) nos dará un código ( Este paso es especialmente importante si planeas utilizar este usuario para permitir que un proceso de servidor WildFly se conecte a otro, como en una configuración de clúster ) (OBVIAR NO LO USAREMOS)
-   https://www.eginnovations.com/documentation/WildFly/Creating-a-new-management.htm
-    imagen paso7
+   ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso6.png)
+
+   3.9) nos dará un código ( Este paso es especialmente importante si planeas utilizar este usuario para permitir que un proceso de servidor WildFly se conecte a otro, como en una configuración de clúster ) 
+        (OBVIAR NO LO USAREMOS)
+         https://www.eginnovations.com/documentation/WildFly/Creating-a-new-management.htm
+
+   ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso7.png)
 
    3.10) al presionar continuar se cierra la consola.
 
