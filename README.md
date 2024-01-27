@@ -138,11 +138,19 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
 
 
-      En el application.properties la ruta debe ser la misma que colocamos en el standalone-full.xml
+      En el application.properties (Backend) la ruta debe ser la misma que colocamos en el standalone-full.xml
       
       spring.datasource.jndi-name=java:jboss/datasources/testconexion
 
 
-      
 
+    ------------------------------------------------------------------------------------------------------------------------------------------
+
+    
+ 7) Ingresar a localhost:9990 (wildfly)
+
+    7.1) colocar el usuario y la contraseña que se creo por la consola anteriormente (punto 3)
+
+   
+    ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/localhost9990.png)
       
