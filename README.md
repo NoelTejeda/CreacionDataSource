@@ -70,13 +70,18 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
 
       4.3) seleccionar la ubicación y en server configuration automaticamente seleccionará el standalone-full.xml que se usará.
-      imagen paso4.3
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso4.3.png)
+      
 
       4.4) importante colocar el user que se creó anteriormente en la consola de wildfly y su password.
-      imagen paso 4.4
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso4.4.png)
+
 
       4.5) levantar el servidor (start)
-      imagen paso 4.5
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso4.5.png)
 
 
 
