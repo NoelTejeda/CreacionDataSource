@@ -9,15 +9,18 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
    3.2) ejecutar add-user.bat  (windows)  /  add-user.sh (unix)
    3.3) presionar tecla a (management User)
    
-   ![Alt text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/paso1.png)
+   ![Alt text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso1.png)
  
    
 
    3.4) agregar el usuario
-   imagen paso2
+
+   ![Alt text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso2.png)
+   
 
    3.5) seleccionar un password (al escribir el password no se mostrará nada) (colocar un caracter alfanumerico si desea)
-   imagen paso3
+   
+   ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso3.png)
 
    3.6) si no se desea agregar el usuario a un grupo dejar en blanco esta opción y enter
    imagen paso4
