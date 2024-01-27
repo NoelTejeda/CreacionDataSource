@@ -5,8 +5,11 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 2) consejo: crear en Disco C:/ una carpeta (servers) y allí alojar el instalador
 
 3) Crear un usuario:
+   
    3.1) ir a la carpeta bin
+   
    3.2) ejecutar add-user.bat  (windows)  /  add-user.sh (unix)
+   
    3.3) presionar tecla a (management User)
    
    ![Alt text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/paso1.png)
