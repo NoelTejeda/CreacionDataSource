@@ -115,7 +115,7 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
            <!-- Inicio postgresql CONFIGURACION  datasources--> 
 
  
-                <datasource jndi-name="java:jboss/datasources/IX" pool-name="IX">   
+                <datasource jndi-name="java:jboss/datasources/testconexion" pool-name="testconexiones">   
                     <connection-url>jdbc:postgresql://localhost:5432/y5svr1t2r5xudqeq</connection-url>   
                     <driver>postgresql</driver>   
                     <security>   
