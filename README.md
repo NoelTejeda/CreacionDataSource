@@ -143,10 +143,8 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
       spring.datasource.jndi-name=java:jboss/datasources/testconexion
 
 
-
-    ------------------------------------------------------------------------------------------------------------------------------------------
-
     
+ ----------------------------------------------------------------------------------------------------------------------------------
  7) Ingresar a localhost:9990 (wildfly)
 
     7.1) colocar el usuario y la contraseña que se creo por la consola anteriormente (punto 3)
