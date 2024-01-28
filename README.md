@@ -181,8 +181,14 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
 
 
-         7.3) seleccionar el driver que anteriormente subimos (deployment)
+         7.3) seleccionar el driver que anteriormente subimos (deployment) lo démas lo dejamos por default.
          
 
          ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/7.3.png)
+
+
+         7.4) colocar el nombre de la base de datos creada, el usuario y contraseña de la BD
+
+
+         ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/7.4.png)
          
