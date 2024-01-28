@@ -179,4 +179,10 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
          ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/7.2.png)
 
+
+
+         7.3) seleccionar el driver que anteriormente subimos (deployment)
+         
+
+         ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/7.3.png)
          
