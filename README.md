@@ -142,6 +142,13 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
       6.4) el nombre del driver podriamos cambiarlo, pero creo que seria mejor dejarlo así, para saber la versión del drivers que estamos usando.
 
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/Deployment4.png)
+
+
+      6.5) verificar que el deploy se realizó con éxito
+
+       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/finisDeployment.png)
       
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/finishDeployment2.png)
 
       
