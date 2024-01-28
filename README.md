@@ -196,4 +196,9 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
          7.5) realizamos un test de conexión para verificar que todo esté ok
 
          ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/7.5.png)
+
+
+         7.6) hemos concluido con una review de los datos insertados
+
+         ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/7.6.png)
          
