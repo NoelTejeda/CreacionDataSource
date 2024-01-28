@@ -121,6 +121,27 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
   6)  Ir a Netbeans y levantar wildfly para poder realizar la configuración del datasource de manera gráfica a través del puerto 9990 (localhost:9990)
     
+
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/Standalone-full.png)
+
+
+      6.1) Ir a Deployments
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/Deployment.png)
+
+      6.2) Upload Deployment y elegir los drivers postgres ( jar )
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/Deployment2.png)
+
+      6.3) cargar el jar (drivers postgres)
+           recordar que anteriormente lo habiamos guardado en la ruta: C:\Servers\wildfly-19.1.0.Final\modules\system\layers\base\com\postgresql\main
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/Deployment3.png)
+
+
+      6.4) el nombre del driver podriamos cambiarlo, pero creo que seria mejor dejarlo así, para saber la versión del drivers que estamos usando.
+
+      ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/Deployment4.png)
+      
 
       
