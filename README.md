@@ -191,4 +191,9 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
 
          ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/7.4.png)
+
+
+         7.5) realizamos un test de conexión para verificar que todo esté ok
+
+         ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/7.5.png)
          
