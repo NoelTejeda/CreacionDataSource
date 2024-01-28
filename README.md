@@ -102,69 +102,25 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/module.xml.png)
 
+               <?xml version='1.0' encoding='UTF-8'?> 
+          
+         <module xmlns="urn:jboss:module:1.1" name="com.postgresql.driver"> 
+          
+             <resources> 
+             <!--the name of your driver --> 
+                 <resource-root path="postgresql-42.3.1.jar"/> 
+             </resources> 
+          
+             <dependencies> 
+                 <module name="javax.api"/> 
+                 <module name="javax.transaction.api"/> 
+             </dependencies> 
+         </module>
 
 
-  7)  configurar el datasource en el archivo de configuración de WildFly (como standalone.xml o 
-       domain.xml ó standalone-full.xml)
 
-
-      6.1) para saber que archivo se debe configurar revisamos en Netbeans servers/click-derecho/ Properties:
-
+  6)  Ir a Netbeans y levantar wildfly para poder realizar la configuración del datasource de manera gráfica a través del puerto 9990 (localhost:9990)
+    
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/Standalone-full.png)
 
-
-      6.2) en el archivo standalome-full.xml agregar las siguientes líneas:
-
-           <!-- Inicio postgresql CONFIGURACION  datasources--> 
-
- 
-                <datasource jndi-name="java:jboss/datasources/testconexion" pool-name="testconexiones">   
-                    <connection-url>jdbc:postgresql://localhost:5432/BDtestconexion</connection-url>   
-                    <driver>postgresql</driver>   
-                    <security>   
-                        <user-name>postgres</user-name>   
-                        <password>postgres</password>   
-                    </security>   
-                </datasource>
-
-         <!--  Fin postgresql CONFIGURACION  datasources-->
-
-
-   ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/ConfiguracionAgregadaalStandalone.png)
-
-
-
-      jndi-name = RUTA que colocamos en el application.properties (backend)
-      pool-name = es el NOMBRE que le colocaremos al datasource
-      User-name = Usuario de postgres
-      password  = contraseña de postgres
-
-
-
-      En el application.properties (Backend) la ruta debe ser la misma que colocamos en el standalone-full.xml
-      
-      spring.datasource.jndi-name=java:jboss/datasources/testconexion
-
-
-    
- ----------------------------------------------------------------------------------------------------------------------------------
- 7) Ingresar a localhost:9990 (wildfly)
-
-    7.1) colocar el usuario y la contraseña que se creo por la consola anteriormente (punto 3)
-
-   
-    ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/localhost9990.png)
-
-
-    7.2) Agregar Datasource:
-
-    paso 1:
-    
-    ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/AddDataSource1.png)
-
-    paso 2:
-
-    ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/AddDataSource2.png)
-
-    
       
