@@ -151,4 +151,14 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/finishDeployment2.png)
 
-      
+
+
+      -----------------------------------------------------------------------------
+
+
+
+      7) Crear el Datasource:
+    
+         ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/AddDatasource1.png)
+
+         
