@@ -86,6 +86,7 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
 
 
    5) agregar los drivers de postgresql en C:\wildfly-19.1.0.Final\modules\system\layers\base\com
+      sitio de descarga: https://mvnrepository.com/artifact/org.postgresql/postgresql
 
       ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/GuardarDriversPostgres.png)
 
