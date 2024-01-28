@@ -161,4 +161,22 @@ El objetivo de este repositorio es crear una guía de instalación de un Datasou
     
          ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/AddDatasource1.png)
 
+
+         7.1)
+
+         ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/7.1.png)
+
+
+         7.2)
+
+         Name: Este es el nombre del pool de conexiones para el datasource. WildFly utiliza este nombre para referirse al 
+               datasource en su configuración interna
+     
+         JNDI Name: Este es el nombre que se utiliza para buscar el datasource en el servicio de nombres Java (Java Naming and 
+                    Directory Interface, JNDI). Cuando tu aplicación necesita una conexión a la base de datos, buscará el 
+                    datasource utilizando este nombre JNDI
+
+
+         ![Alt Text](https://github.com/NoelTejeda/CreacionDataSource/blob/main/datasource/7.2.png)
+
          
